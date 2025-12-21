@@ -25,7 +25,7 @@ export default function TheFramework() {
           <DiagramSVG />
 
           {/* Content Sections */}
-          <div className="space-y-16 mt-20">
+          <div className="space-y-16 mt-12">
             <div>
               <h2 className="text-3xl font-medium tracking-tight text-zinc-50 mb-4">
                 Controlled access
