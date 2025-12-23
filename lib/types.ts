@@ -58,3 +58,17 @@ export interface CookieConsentContextValue {
   openPreferences: () => void;
   hasConsented: boolean;
 }
+
+// Onboarding Pack Form Types
+export interface OnboardingPackFormData {
+  fullName: string;
+  email: string;
+  phone: string;
+  numberOfProperties: string;
+  propertyLocations: string;
+}
+
+export interface OnboardingPackModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
