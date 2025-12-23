@@ -72,7 +72,7 @@ export async function POST(request: NextRequest): Promise<NextResponse<ApiRespon
     if (error instanceof ZodError) {
       const fieldErrors: Record<string, string> = {};
 
-      error.errors.forEach((err) => {
+      error.issues.forEach((err) => {
         const field = err.path.join('.');
         fieldErrors[field] = err.message;
       });

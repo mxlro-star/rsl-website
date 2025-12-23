@@ -35,7 +35,7 @@ export const requestIntroductionSchema = z.object({
     .transform((val) => val || ''),
 
   requestType: z.enum(['Landlord', 'Local Authority', 'Partner', 'Other'], {
-    errorMap: () => ({ message: 'Please select a request type' }),
+    message: 'Please select a request type',
   }),
 
   message: z
