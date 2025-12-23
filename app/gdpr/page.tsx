@@ -2,7 +2,7 @@ import SectionContainer from "../components/SectionContainer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "GDPR Compliance - Future Housing Framework",
+  title: "GDPR Compliance - Future Social Housing",
   description:
     "Our approach to data protection and compliance with the General Data Protection Regulation.",
 };
@@ -26,7 +26,7 @@ export default function GDPR() {
                 Our Approach
               </h2>
               <p className="mb-4">
-                Verified Operating Company Ltd processes personal data in
+                Future Estate Management Ltd processes personal data in
                 accordance with the principles established by the General Data
                 Protection Regulation (GDPR) and the Data Protection Act 2018.
               </p>

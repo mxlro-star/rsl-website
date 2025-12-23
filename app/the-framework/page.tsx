@@ -3,7 +3,7 @@ import DiagramSVG from "../components/DiagramSVG";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "The Framework - Future Housing Framework",
+  title: "The Framework - Future Social Housing",
   description:
     "Understanding the controlled access model and operational structure designed for long-term stability.",
 };

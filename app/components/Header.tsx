@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import Logo from "./Logo";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -28,9 +29,13 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="text-lg font-medium text-zinc-50 tracking-tight hover:text-zinc-300 transition-colors"
+            className="flex items-center gap-3 text-lg font-medium text-zinc-50 tracking-tight hover:text-zinc-300 transition-colors group"
           >
-            Future Housing Framework
+            <Logo
+              className="w-7 h-7 text-zinc-50 group-hover:text-zinc-300 transition-colors"
+              color="currentColor"
+            />
+            <span>Future Social Housing</span>
           </Link>
 
           {/* Desktop Navigation */}

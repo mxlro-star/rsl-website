@@ -36,11 +36,11 @@ export default function Footer() {
               {/* Registration Details */}
               <div className="flex flex-col gap-3">
                 <div className="text-sm text-zinc-400">
-                  Verified Operating Company Ltd
+                  Future Estate Management Ltd
                 </div>
                 <div className="flex flex-col gap-1 text-xs font-mono text-zinc-600">
                   <div>Registered in England and Wales</div>
-                  <div>Company No. 00000000</div>
+                  <div>Company No. 14144520</div>
                 </div>
               </div>
 
@@ -57,10 +57,16 @@ export default function Footer() {
                 </div>
                 <div className="flex flex-col gap-1 text-xs text-zinc-600 mt-2">
                   <a
-                    href="mailto:contact@example.com"
+                    href="mailto:hello@futuresocialhousing.co.uk"
                     className="hover:text-zinc-400 transition-colors"
                   >
-                    contact@example.com
+                    hello@futuresocialhousing.co.uk
+                  </a>
+                  <a
+                    href="tel:01215148889"
+                    className="hover:text-zinc-400 transition-colors"
+                  >
+                    0121 514 8889
                   </a>
                 </div>
               </div>

@@ -4,9 +4,9 @@ import OnboardingCTA from "../components/OnboardingCTA";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Landlord Onboarding - Future Housing Framework",
+  title: "Landlord Onboarding - Future Social Housing",
   description:
-    "Information for landlords interested in joining the Future Housing Framework regulated accommodation scheme.",
+    "Information for landlords interested in joining the Future Social Housing regulated accommodation scheme.",
 };
 
 export default function LandlordOnboarding() {

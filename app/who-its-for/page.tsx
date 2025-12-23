@@ -3,7 +3,7 @@ import CriteriaSection from "../components/CriteriaSection";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Who It's For - Future Housing Framework",
+  title: "Who It's For - Future Social Housing",
   description:
     "Understanding who should participate in the framework and who should not.",
 };

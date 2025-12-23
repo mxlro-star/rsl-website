@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Future Housing Framework",
+  title: "Future Social Housing",
   description: "Operating access to regulated accommodation frameworks. Controlled onboarding for property operators within established registered provider ecosystems.",
 };
 

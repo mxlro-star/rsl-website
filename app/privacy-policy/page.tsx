@@ -2,7 +2,7 @@ import SectionContainer from "../components/SectionContainer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Future Housing Framework",
+  title: "Privacy Policy - Future Social Housing",
   description:
     "How we collect, use, and protect information submitted through this website.",
 };
@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
                 Introduction
               </h2>
               <p className="mb-4">
-                This website is operated by Verified Operating Company Ltd. It
+                This website is operated by Future Estate Management Ltd. It
                 provides information about a structured framework for operators
                 within regulated accommodation ecosystems.
               </p>

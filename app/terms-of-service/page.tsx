@@ -2,7 +2,7 @@ import SectionContainer from "../components/SectionContainer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service - Future Housing Framework",
+  title: "Terms of Service - Future Social Housing",
   description:
     "Terms governing use of this website and access to framework information.",
 };
@@ -25,7 +25,7 @@ export default function TermsOfService() {
                 Nature of This Website
               </h2>
               <p className="mb-4">
-                This website is operated by Verified Operating Company Ltd. It
+                This website is operated by Future Estate Management Ltd. It
                 provides information about a controlled-access framework designed
                 for property operators working within established registered
                 provider ecosystems.
@@ -162,7 +162,7 @@ export default function TermsOfService() {
               </h2>
               <p className="mb-4">
                 All content on this website, including text, graphics, and design,
-                is the property of Verified Operating Company Ltd or its
+                is the property of Future Estate Management Ltd or its
                 licensors.
               </p>
               <p>

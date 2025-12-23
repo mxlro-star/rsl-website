@@ -1,9 +1,34 @@
 // Form Data Types
-export interface IntroductionFormData {
-  name: string;
-  company: string;
-  city: string;
-  referralSource: string;
+
+// Request Introduction Form (NEW - replaces old IntroductionFormData)
+export interface RequestIntroductionFormData {
+  fullName: string;
+  email: string;
+  phone: string;
+  organisation: string;
+  requestType: 'Landlord' | 'Local Authority' | 'Partner' | 'Other';
+  message: string;
+  consent: boolean;
+  honeypot: string; // Anti-spam field
+}
+
+export interface RequestIntroductionValidationErrors {
+  fullName?: string;
+  email?: string;
+  phone?: string;
+  organisation?: string;
+  requestType?: string;
+  message?: string;
+  consent?: string;
+  _form?: string; // General form error
+}
+
+// API Response Type
+export interface ApiResponse<T = unknown> {
+  success: boolean;
+  data?: T;
+  error?: string;
+  details?: Record<string, string>;
 }
 
 // Component Prop Types
@@ -24,6 +49,11 @@ export interface ProcessSectionProps {
   number: string;
   title: string;
   description: string;
+}
+
+export interface LogoProps {
+  className?: string;
+  color?: string;
 }
 
 export interface BulletPoint {

@@ -3,7 +3,7 @@ import ProcessSection from "../components/ProcessSection";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "How It Works - Future Housing Framework",
+  title: "How It Works - Future Social Housing",
   description:
     "Understanding the operational structure of controlled access and framework integration.",
 };

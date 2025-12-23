@@ -3,7 +3,7 @@ import IntroductionForm from "../components/IntroductionForm";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Request Introduction - Future Housing Framework",
+  title: "Request Introduction - Future Social Housing",
   description:
     "Access is granted selectively. Submit a request for introduction to the framework.",
 };

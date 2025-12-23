@@ -19,7 +19,7 @@ export default function TrustAnchor() {
             Operating Partner
           </div>
           <div className="text-xl text-zinc-300 mb-6">
-            Verified Operating Company Ltd
+            Future Estate Management Ltd
           </div>
 
           <div className="font-mono text-sm text-zinc-500 mb-3">

@@ -2,7 +2,7 @@ import SectionContainer from "../components/SectionContainer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cookie Policy - Future Housing Framework",
+  title: "Cookie Policy - Future Social Housing",
   description: "Information about cookies used on this website.",
 };
 
